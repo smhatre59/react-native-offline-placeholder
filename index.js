@@ -10,7 +10,7 @@ import {
     View,
 	Image
 } from 'react-native'; 
-export default class offlinePlaceholder extends Component{
+export default class OfflinePlaceholder extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -72,3 +72,9 @@ export default class offlinePlaceholder extends Component{
     }
 }
 
+OfflinePlaceholder.propTypes = {
+    source:PropTypes.object,
+    resizeMode:PropTypes.string,
+    thumbnail:PropTypes.object,
+    thumbnailresizeMode:PropTypes.string
+}
