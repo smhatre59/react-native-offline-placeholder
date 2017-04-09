@@ -44,7 +44,7 @@ export default class offlinePlaceholder extends Component{
             backgroundColor={'#ffffff'}
             >    
                 <Animated.Image
-                   key = {this.props.key+'image'}
+                   key = {this.props.imageKey+'image'}
                    resizeMode={this.props.resizeMode}
                    style = {[
                        {
@@ -57,7 +57,7 @@ export default class offlinePlaceholder extends Component{
                 />
                 <Animated.Image 
                  resizeMode={this.props.thumbnailresizeMode}
-                 key={this.props.key+'thumbnail'}
+                 key={this.props.imageKey+'thumbnail'}
                  style={[
                      {
                          opacity: this.state.thumbnailOpacity
