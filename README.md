@@ -21,7 +21,7 @@ import ProgressiveImage from 'react-native-offline-placeholder';
             
 ```
 
-The usage is similar to react-native Image component except that we pass thumbnail prop for specifying offline image location in the app along with thumbnailCoverMode
+The usage is similar to react-native Image component except that we pass thumbnail prop for specifying offline image location in the app along with thumbnailResizeMode
 
 ## Problem statement
 The basic need for developing this module was felt when I was trying to create Image component in one of my recent projects and realized that defaultSource property in react-native image component was only available in ios and my application mainly targeted android users.Most of the existing modules had an issue that if placeholder image was loaded after base image then placeholder would appear on top of main image sometimes.
