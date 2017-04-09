@@ -73,8 +73,8 @@ export default class OfflinePlaceholder extends Component{
 }
 
 OfflinePlaceholder.propTypes = {
-    source:PropTypes.object,
+    source:PropTypes.any,
     resizeMode:PropTypes.string,
-    thumbnail:PropTypes.object,
+    thumbnail:PropTypes.any,
     thumbnailresizeMode:PropTypes.string
 }
