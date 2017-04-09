@@ -1,5 +1,5 @@
 # react-native-offline-placeholder
-Simple react native component to add offline placeholder capability to react native Image component
+Simple react native component to add offline placeholder capability to react native Image component  
 Requires react-native >= 0.40.0
 
 ## Add it to your project:
@@ -24,7 +24,7 @@ import ProgressiveImage from 'react-native-offline-placeholder';
 The usage is similar to react-native Image component except that we pass thumbnail prop for specifying offline image location in the app along with thumbnailCoverMode
 
 ## Problem statement
-The basic need for developing this module was felt when I was trying to create Image component in one of my recent projects and realized that defaultSource property in react-native image component was only available in ios and my application mainly targeted android users and existing modules had an issue that if placeholder image was loaded after base image then placeholder would appear on top of main image sometimes.
+The basic need for developing this module was felt when I was trying to create Image component in one of my recent projects and realized that defaultSource property in react-native image component was only available in ios and my application mainly targeted android users.Most of the existing modules had an issue that if placeholder image was loaded after base image then placeholder would appear on top of main image sometimes.
 
 You can find entire source code explained in the following article just in case you are curious:
 [Technoetics article](http://technoetics.in/adding-image-placeholders-react-native-the-right-way/)
